@@ -24,6 +24,16 @@ Citation:
 Main files:
 
     - launch_ageEstimation_demo: main file
+    
+Required files
+
+    - \results\AgeDB\pca.mat
+    if not downloaded by Github LFS, download at:
+    https://drive.google.com/open?id=14eiuSH0n8oXlv-muHeA19RkxykPuQzVu
+
+    - \results\AgeDB\PCA30DB_Results_CONCAT.mat
+    if not downloaded by Github LFS, download at:
+    https://drive.google.com/open?id=1lPglz7ilE2DNIel_ISSeinPDnygreJA-
 
 Part of the code uses the Matlab source code of matconvnet:
 
