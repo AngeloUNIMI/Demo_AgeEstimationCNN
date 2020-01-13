@@ -10,6 +10,10 @@ Project page:
 
 http://iebil.di.unimi.it/projects/softbio
 
+Source code:
+
+https://github.com/AngeloUNIMI/AgeEstimationCNN
+
 Citation:
 
     @INPROCEEDINGS{8285381,
