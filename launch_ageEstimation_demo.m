@@ -22,7 +22,7 @@ dirResults = ['./results/' dbName '/'];
 
 %pre-trained CNN
 netFilename_vggface = [dirNets 'vgg-face.mat'];
-netFilename_alexnet = [dirNets 'imagenet-caffe-alex'];
+netFilename_alexnet = [dirNets 'imagenet-caffe-alex.mat'];
 
 if exist(netFilename_vggface, 'file') ~= 2
     fprintf(1, 'Downloading vgg-face...\n');
@@ -87,6 +87,7 @@ while (1)
     
     if numel(bbox) == 0
         fprintf(1, 'Cannot detect face...\n');
+        pause(1)
         continue
     end %f numel
     
